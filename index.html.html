@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Hugo Koch</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+            font-size: 23px;
+        }
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 20px;
+        }
+        nav a:hover {
+            transform: scale(1.5);
+            transition: transform 0.5s ease;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #000000;
+            padding-bottom: 10px;
+            color: #000000;
+        }
+        .section p, .project {
+            margin: 10px 0;
+        }
+        .project {
+            background-color: #007bff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #007bff;
+        }
+        .experiences {
+            background-color: #000000;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+        }
+        footer {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+    <link rel="stylesheet" href='style.css'>
+</head>
+<body>
+
+ 
+ <div class="side-menu">
+
+    <a href="https://www.linkedin.com/in/hugo-koch-265908266/">
+        <img src="linkedin-logo-black-svg.png" alt="Logo LinkedIn">
+    </a>
+
+
+    <img src="logomail.png" alt="Cliquez ici" id="popupImage" style="cursor: pointer;">
+
+    <a href="tel:+33618512446">
+        <img src="logophone.png" alt="Téléphone">
+    </a>
+</div>
+
+
+<script src="portfolioJS.js"></script>
+
+<header>
+    <div class="banner">
+        <video autoplay muted loop class="banner-video">
+            <source src="12487101_1920_1080_25fps.mp4" type="video/mp4">
+        </video>
+        <div class="banner-text">
+            <h1 class="main-title">HUGO KOCH</h1>
+            <p>Bienvenue sur mon Portfolio</p>
+            <div class="banner-icons">
+                <img src="5968201.png" alt="Logo 1" class="icon">
+                <img src="5968222.png" alt="Logo 2"class="icon">
+                <img src="5968238.png" alt="Logo 2" class="icon">
+                <img src="5968286.png" alt="Logo 3" class="icon">
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">À PROPOS</a>
+    <a href="#projects">PROJETS</a>
+    <a href="#contact">CONTACT</a>
+</nav>
+
+<div class="container">
+
+    <section id="about" class="section">
+        <h2>À Propos</h2>
+        <p>Je suis étudiant en BTS SIO, option SLAM (Solutions Logicielles et Applications Métiers). Passionné par l'informatique et le développement, j'apprends à créer des applications et des logiciels pour répondre aux besoins des entreprises. Je travaille avec des langages comme Java, PHP, SQL, et JavaScript, et je m'initie aux outils de gestion de projet et aux méthodes de travail en équipe, comme la méthode Agile et Git pour le suivi des versions.
+
+            Mon parcours me forme à analyser les besoins des clients et à traduire leurs demandes en solutions techniques concrètes. À travers des projets pratiques, je développe mes compétences en conception, en programmation, et en résolution de problèmes complexes. 
+            
+            À terme, je me vois intégrer le monde professionnel comme développeur junior, prêt à contribuer à des projets concrets et à continuer d'apprendre pour évoluer dans ce domaine dynamique.</p>
+       <br> <p><strong>Compétences :</strong> HTML, CSS, JavaScript, Python.</p>
+        <br><p><strong>Certifications :</strong></section></p><img src="Commission_nationale_de_l'informatique_et_des_libertés_(logo).svg.png" alt="Logo de la Certification 1" width="50" height="auto">
+            <p>RGPD de la CNIL</p>
+            </p><img src="Anssi.png" alt="Logo de la Certification 2" width="50" height="auto">
+            <p>ANSSI Cybersécurité</p>
+            <br><a href="CV Hugo Koch Informatique (2).pdf" download="CV Hugo Koch" class="download-link">
+                TÉLÉCHARGER MON CV           
+            </a>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projets</h2>
+    
+        <div class="project">
+            <h3>PROJET 1 : PORTFOLIO EN LIGNE</h3>
+            <p>Un portfolio en ligne pour montrer mes projets, accéder à mon expérience et me contacter..</p>
+            <p><strong>Technologies :</strong> HTML, CSS.</p>
+        </div>
+
+        <div class="project">
+            <h3>PROJET 2 :PRÉSENTATION DES MÉTIERS DU NUMÉRIQUES</h3>
+            <p>Travail de recherche sur les métiers du numériques éffectuer dans le cadre de mes études 
+               <a href="Types de Métiers en Informatique.pdf" download="Projet 2"class="download-link">
+                TÉLÉCHARGER LE PROJET             
+            </a>         
+                </a>
+            </p>
+            <p><strong>Technologies :</strong> HTML, CSS.</p>
+        </div>
+    
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Envie de collaborer ? Contactez-moi via email ou sur LinkedIn.</p>
+        <p>Email : <a href="hkochcontact@gmail.com">hkochcontact@gmail.com</a></p>
+        <p>LinkedIn : <a href="https://www.linkedin.com/in/hugo-koch-265908266/" target="_blank">Mon Profil LinkedIn</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 KOCH HUGO. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
